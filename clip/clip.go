@@ -5,8 +5,8 @@ import "github.com/go-vgo/robotgo"
 var clipMem string
 
 func Prepare() {
-	robotgo.MicroSleep(200)
 	robotgo.KeyTap("escape")
+	robotgo.MicroSleep(50)
 	wait()
 }
 
